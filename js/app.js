@@ -9,7 +9,7 @@ alert(`Welcome to my site ${userName}!`);
 
 //TODO: prompt them with 5 yes or mo (y/n) qestion, alert if they got the question right or wrong 
 
-let userTrivia = prompt('Would you like to play a guessing game with me? yes or no ?');
+let userTrivia = prompt('Would you like to play a guessing game with me? yes or no ?').toLowerCase();
 
 if(userTrivia === 'yes' || userTrivia === 'y'){
   alert(`YAY!, Please answer the following questions with yes/no or y/n ${userName}`);
@@ -18,7 +18,7 @@ if(userTrivia === 'yes' || userTrivia === 'y'){
   alert(`Ok next time then! Goodbye ${userName}`);
 }
 
-let questionOneGuess = prompt('I am 31 years old and I live in texas, Do I have any kids ?').toLowerCase();
+let questionOneGuess = prompt('I am 31 years old, I live in texas and love gaming, Do I have any kids ?').toLowerCase();
 
 if(questionOneGuess === 'yes' || questionOneGuess === 'y'){
   alert(`Lucky guess ${userName}! ok lets go again`);
@@ -39,7 +39,7 @@ if(questionTwoGuess === 'yes' || questionTwoGuess === 'y'){
 let questionThreeGuess = prompt('I have been in the same industry for the last 9 years. Am I am mechanic ?').toLowerCase();
 
 if(questionThreeGuess === 'yes' || questionThreeGuess === 'y'){
-  alert('Lol if Im working on your car we are both in trouble. Gotcha, lets try again');
+  alert(`Lol if Im working on your car ${userName} we are both in trouble. Gotcha, lets try again`);
 } else if (questionThreeGuess ==='no' || questionThreeGuess === 'n'){
   alert('Yep no cars for me. I have been in IT for 9 years, everything from support desk to security engineer');
   //console.log('They were right' + questionThreeGuess === 'no' || questionThreeGuess === 'n');//
