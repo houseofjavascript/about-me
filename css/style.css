@@ -1,3 +1,15 @@
 body {
   background-color: blue;
+  font-style: italic;
+  margin: auto;
+}
+main {
+  align-content: center;
+}
+
+footer{
+  align-content: center;
+  background-color: blueviolet;
+  font-style: italic;
+  margin: auto;
 }
