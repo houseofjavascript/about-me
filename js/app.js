@@ -74,7 +74,7 @@ function questionFive() {
     alert('Yes a good pancake beats almost all food');
     score++;
     //console.log('They were right')
-  } else if (questionFiveGuess === 'no' || questionFiveGuess === 'no') {
+  } else if (questionFiveGuess === 'no' || questionFiveGuess === 'n') {
     alert(`A properly made pancake is better than a waffle any day ${userName}`);
   }
 }
@@ -124,7 +124,7 @@ questionOne();
 questionTwo();
 questionThree();
 questionFour();
-questionFix();
+questionFive();
 questionSix();
 questionSeven();
 
