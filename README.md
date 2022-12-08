@@ -1,6 +1,4 @@
 # about-me
 
-//added tv shows and experience to html
-//added more questions to javascript for lab03
-//added more css
-
+I was Navigator on: https://github.com/bperard/201-about-me/commit/68e016229e1bfcfedf5cdf69a126370050fc44c5
+I was Driver on: https://github.com/bperard/201-about-me
